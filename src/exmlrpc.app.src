@@ -1,1 +1,11 @@
-{application, exmlrpc, []}.
+{application, exmlrpc, 
+ [{description, "HTTP 1.1 compliant XML-RPC library"},
+  {vsn, "1.0"},
+  {modules, [example_serv.erl,
+             tcp_serv,
+             xmlrpc_decode,
+             xmlrpc_encode,
+             xmlrpc,
+             xmlrpc_http,
+             xmlrpc_util]}
+ ]}.
