@@ -6,5 +6,6 @@
              xmlrpc_encode,
              xmlrpc,
              xmlrpc_http,
-             xmlrpc_util]}
+             xmlrpc_util]},
+  {applications, [kernel, stdlib]}
  ]}.
